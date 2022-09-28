@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+.logo-onebitcode {
+  width: 200px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttonHeader {
+  font-size: 20;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+  transition-delay: 0s;
+}
+.buttonHeader:hover {
+  border-color: #ff0044;
+}
+.title {
+  padding-top: 20px;
+  font-size: 35px;
+  text-align: center;
+}
+.texts {
+  font-size: 25px;
+  text-align: center;
+}
+.main-content {
+  flex: 1 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9";
+  gap: 20px;
+}
+.imagem {
+  width: 280px;
+  height: 190px;
+  border-radius: 15px;
+}
+.item {
+  background-color: white;
+  border: 2px solid white;
+  max-width: 285px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.item:hover {
+  border-color: black;
+}
+.midtitle {
+  font-size: 20px;
+}
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
+}
+.item9 {
+  grid-area: item9;
+}
